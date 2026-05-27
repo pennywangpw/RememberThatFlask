@@ -1,6 +1,8 @@
 # Introdution
+
 This website is a clone of Remember The Milk. You can view all task and all lists after login. Clicking on each task or list, you can view more details.
 You can create/rename/update/delete lists and create/update/delete tasks.
+Here is the link to <a href="http://104.50.142.226:3001/">Remember That Flask</a>
 
 # Technology
 
@@ -15,13 +17,14 @@ You can create/rename/update/delete lists and create/update/delete tasks.
 ![Home Page](./homePage.PNG)
 
 # Set up
+
 1. Clone this repository
 
 2. Install dependencies for backend
 
-      ```bash
-      pipenv install -r requirements.txt
-      ```
+   ```bash
+   pipenv install -r requirements.txt
+   ```
 
 3. Create a **.env** file based on the example with proper settings for your
    development environment
@@ -44,17 +47,20 @@ You can create/rename/update/delete lists and create/update/delete tasks.
    ```bash
    pipenv run flask run
    ```
-7. In another terminal, cd into the ```react-app``` directory and install dependencies for React frontend
 
-      ```bash
-      npm install
-      ```
+7. In another terminal, cd into the `react-app` directory and install dependencies for React frontend
+
+   ```bash
+   npm install
+   ```
+
 8. Once all the installation for dependencies is completed, start the application
-      ```bash
-      npm start
-      ```
+   ```bash
+   npm start
+   ```
 
 # Project Developers
+
 - Dongliang Li
 - Sarah Moore
 - Seng Wang
